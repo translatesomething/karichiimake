@@ -1,0 +1,150 @@
+<!DOCTYPE html><html id="cm-adjust" class="js" lang="ja"><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="cmm-base" content="/karichiimake/">
+<meta name="cmm-public" content="1">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" type="image/svg+xml" href="/karichiimake/assets/app/favicon-public.svg">
+
+<title>ちいかわ お買い物シミュレーター（非公式）</title>
+<meta property="og:site_name" content="ちいかわ お買い物シミュレーター（非公式）">
+<meta property="og:title" content="ちいかわ お買い物シミュレーター（非公式）">
+<link rel="stylesheet" href="/karichiimake/assets/theme/cmm-inline.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/accelerated-checkout-backwards-compat.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/base.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-cart-items.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-localization-form.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/cm-common.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/splide.min.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-slideshow.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-slider.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-list-social.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-list-menu.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-search.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-menu-drawer.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-cart-notification.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-card.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-price.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/template-collection.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-rating.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-volume-pricing.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/quick-order-list.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/quantity-popover.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-article-card.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/section-featured-blog.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/section-footer.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-newsletter.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-list-payment.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/gw-brand-theme.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-collection-hero.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-facets.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-show-more.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-swatch-input.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-swatch.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-pagination.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/cm-account.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/customer.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/section-main-product.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-accordion.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-deferred-media.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-pickup-availability.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/section-related-products.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-product-variant-picker.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-cart.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-totals.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-discounts.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/app/app.css?v=mwfbah0l">
+<script type="module" src="/karichiimake/assets/app/ui/boot.js?v=mwfbah0l"></script>
+<style>
+/* Shopify one-page checkout layout, coloured with the theme's tokens (assets/theme/cmm-inline.css). */
+#cm-adjust body.tpl-checkout { display: block; background: #fff; color: rgb(41, 41, 41); }
+/* Shopify checkout: white form column, grey summary column running to the window edge. */
+@media screen and (min-width: 1000px) { #cm-adjust body.tpl-checkout main { background: linear-gradient(to right, #fff 50%, #f5f5f5 50%); } }
+.cmm-co-header { border-bottom: 1px solid #e6e6e6; background: #fff; }
+.cmm-co-header__inner { max-width: 112rem; margin: 0 auto; padding: 1.6rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+.cmm-co-header__logo img { width: 18rem; height: auto; display: block; }
+.cmm-co-header__cart img { width: 4rem; height: 4rem; }
+.cmm-co { max-width: 112rem; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr); }
+@media screen and (min-width: 1000px) { .cmm-co { grid-template-columns: minmax(0, 58%) minmax(0, 42%); min-height: calc(100vh - 8rem); } }
+.cmm-co__main { padding: 3.2rem 2rem 4.8rem; background: #fff; }
+@media screen and (min-width: 1000px) { .cmm-co__main { padding: 3.8rem 3.8rem 6rem 2rem; } }
+.cmm-co__aside { background: #f5f5f5; border-left: 1px solid #e6e6e6; padding: 3.2rem 2rem; }
+@media screen and (min-width: 1000px) { .cmm-co__aside { padding: 3.8rem 2rem 3.8rem 3.8rem; } .cmm-co__aside-inner { position: sticky; top: 3.8rem; } }
+@media screen and (max-width: 999px) { .cmm-co__aside { order: -1; border-left: 0; border-bottom: 1px solid #e6e6e6; } }
+.cmm-co h2 { font-size: 2.1rem; font-weight: 700; margin: 3.2rem 0 1.4rem; letter-spacing: 0.04rem; color: rgb(41, 41, 41); }
+.cmm-co section:first-child h2 { margin-top: 0; }
+.cmm-co-note { font-size: 1.3rem; color: rgba(41, 41, 41, 0.7); margin: -0.6rem 0 1.2rem; }
+.cmm-co-grid { display: flex; flex-wrap: wrap; gap: 1.2rem; }
+.cmm-co-field { flex: 1 1 100%; min-width: 0; }
+.cmm-co-field--half { flex: 1 1 calc(50% - 0.6rem); }
+.cmm-co-field label { display: block; font-size: 1.2rem; margin: 0 0 0.4rem; color: rgba(41, 41, 41, 0.75); }
+.cmm-co-field input, .cmm-co-field select { width: 100%; height: 4.8rem; padding: 0 1.2rem; border: 1px solid #d9d9d9; border-radius: 0.6rem; background: #fff; font: inherit; font-size: 1.5rem; color: rgb(41, 41, 41); }
+.cmm-co-field input:focus, .cmm-co-field select:focus { outline: none; border-color: rgb(47, 154, 224); box-shadow: 0 0 0 1px rgb(47, 154, 224); }
+.cmm-co-field input:disabled, .cmm-co-field select:disabled { background: #f0f0f0; color: #767676; -webkit-text-fill-color: #767676; opacity: 1; cursor: not-allowed; }
+.cmm-co-check:has(input:disabled) { color: #767676; cursor: not-allowed; }
+.cmm-co-check { display: flex; align-items: center; gap: 0.8rem; margin-top: 1.2rem; font-size: 1.4rem; }
+.cmm-co-box { border: 1px solid #d9d9d9; border-radius: 0.6rem; overflow: hidden; background: #fff; }
+.cmm-co-option { display: flex; align-items: center; gap: 1.2rem; padding: 1.6rem; border-top: 1px solid #d9d9d9; font-size: 1.5rem; cursor: pointer; }
+.cmm-co-option:first-child { border-top: 0; }
+.cmm-co-option input { width: 1.8rem; height: 1.8rem; accent-color: rgb(47, 154, 224); margin: 0; }
+.cmm-co-option__label { flex: 1; }
+.cmm-co-option__price { font-weight: 700; }
+.cmm-co-option.is-selected { background: #f0f8fe; box-shadow: inset 0 0 0 1px rgb(47, 154, 224); }
+.cmm-co-pay { width: 100%; margin-top: 2.8rem; min-height: 5.6rem; font-size: 1.8rem; font-weight: 700; border-radius: 0.6rem; }
+.cmm-co-errors { margin-top: 1.6rem; color: rgb(221, 29, 29); font-size: 1.4rem; }
+.cmm-co-footer { border-top: 1px solid #e6e6e6; margin-top: 4.8rem; padding-top: 1.6rem; display: flex; flex-wrap: wrap; gap: 1.6rem; font-size: 1.2rem; }
+.cmm-co-footer a { color: rgb(47, 154, 224); }
+.cmm-co-lines { list-style: none; margin: 0 0 2rem; padding: 0; }
+.cmm-co-line { display: flex; align-items: center; gap: 1.4rem; margin-bottom: 1.4rem; font-size: 1.4rem; }
+.cmm-co-line__img { position: relative; flex: 0 0 6.4rem; height: 6.4rem; border: 1px solid #ddd; border-radius: 0.8rem; background: #fff; }
+.cmm-co-line__img img { width: 100%; height: 100%; object-fit: contain; border-radius: 0.8rem; }
+.cmm-co-line__qty { position: absolute; top: -0.8rem; right: -0.8rem; min-width: 2.2rem; height: 2.2rem; padding: 0 0.6rem; border-radius: 1.1rem; background: rgba(41, 41, 41, 0.85); color: #fff; font-size: 1.2rem; line-height: 2.2rem; text-align: center; }
+.cmm-co-line__title { flex: 1; min-width: 0; }
+.cmm-co-line__variant { display: block; font-size: 1.2rem; color: rgba(41, 41, 41, 0.6); }
+.cmm-co-line__price { white-space: nowrap; }
+.cmm-co-totals { margin: 0; font-size: 1.4rem; }
+.cmm-co-totals div { display: flex; justify-content: space-between; padding: 0.4rem 0; }
+.cmm-co-totals dt, .cmm-co-totals dd { margin: 0; }
+.cmm-co-totals .cmm-co-total { font-size: 1.9rem; font-weight: 700; padding-top: 1.2rem; }
+.cmm-co-total small { font-size: 1.2rem; font-weight: 400; color: rgba(41, 41, 41, 0.6); margin-right: 0.6rem; }
+</style>
+
+</head>
+<body class="gradient tpl-checkout tpl-thanks cmm-public">
+<div id="cmm-disclaimer" class="cmm-disclaimer" role="note"><p>これはファンが作成した買い物シミュレーターです。公式ストアではなく、実際の商品の販売は行っていません。</p><p>Fan-made shopping simulator. Not the official store. Nothing is actually sold.</p><a href="https://chiikawamarket.jp/" data-cmm-keep-href="" target="_blank" rel="noopener">公式ストアはこちら (chiikawamarket.jp)</a></div>
+<script>(function(){var d=document.getElementById('cmm-disclaimer');function f(){document.documentElement.style.setProperty('--cmm-dh',d.offsetHeight+'px')}f();addEventListener('resize',f);addEventListener('load',f)})();</script>
+
+<a class="skip-to-content-link button visually-hidden" href="#MainContent">コンテンツに進む</a>
+<header class="cmm-co-header"><div class="cmm-co-header__inner"><a href="/karichiimake/" class="cmm-co-header__logo"><span class="cmm-site-name">ちいかわ お買い物シミュレーター（非公式）</span></a><a href="/karichiimake/cart" class="cmm-co-header__cart" aria-label="カート"><img src="//chiikawamarket.jp/cdn/shop/files/btn_cart_112x.png?v=8178207740371644746" width="56" height="56" alt=""></a></div></header>
+
+<main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+
+<div class="cmm-co" data-cmm-thanks="">
+<div class="cmm-co__main">
+<section><p class="cmm-co-note">注文 <span data-cmm-order-name=""></span></p><h2><span class="svg-wrapper"><svg class="icon icon-checkmark" viewBox="0 0 12 9" aria-hidden="true" focusable="false"><use href="/karichiimake/assets/theme/icons.svg#checkmark"></use></svg></span> ありがとうございます、<span data-cmm-customer-name=""></span>様</h2></section>
+<section class="cmm-co-box"><div class="cmm-co-option"><span class="cmm-co-option__label"><strong>ご注文を承りました</strong><br>ご注文内容はマイページの注文履歴から確認できます。</span></div></section>
+<section><h2>お客様情報</h2><div class="cmm-co-box"><dl class="cmm-co-option cmm-co-totals" data-cmm-order-info="" style="display: block;">
+<div><dt>連絡先情報</dt><dd data-cmm-order-email=""></dd></div>
+<div><dt>配送先住所</dt><dd data-cmm-order-address=""></dd></div>
+<div><dt>配送方法</dt><dd>通常配送</dd></div>
+<div><dt>支払い</dt><dd data-cmm-order-payment=""></dd></div>
+</dl></div></section>
+<p style="margin-top: 2.8rem;"><a href="/karichiimake/" class="button button--primary">買い物を続ける</a></p>
+
+</div>
+<aside class="cmm-co__aside" aria-label="注文概要"><div class="cmm-co__aside-inner" data-cmm-checkout-summary="">
+<ul class="cmm-co-lines" data-cmm-checkout-lines=""></ul>
+<template data-cmm-checkout-line=""><li class="cmm-co-line"><div class="cmm-co-line__img"><img src="" alt="" width="64" height="64" data-cmm-item-image=""><span class="cmm-co-line__qty" data-cmm-item-qty=""></span></div><div class="cmm-co-line__title"><span data-cmm-item-title=""></span><span class="cmm-co-line__variant" data-cmm-item-variant=""></span></div><div class="cmm-co-line__price" data-cmm-item-total=""></div></li></template>
+<dl class="cmm-co-totals"><div><dt>小計</dt><dd data-cmm-checkout-subtotal=""></dd></div><div><dt>配送料</dt><dd data-cmm-checkout-shipping=""></dd></div><div class="cmm-co-total"><dt>合計</dt><dd><small>JPY</small><span data-cmm-checkout-total=""></span></dd></div></dl>
+</div></aside>
+</div>
+<div class="cmm-wasted" data-cmm-wasted="" hidden=""></div>
+
+</main>
+
+<div class="cmm-settings" data-cmm-settings=""></div>
+
+
+</body></html>

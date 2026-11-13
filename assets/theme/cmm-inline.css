@@ -1,0 +1,359 @@
+/* Inline <style> blocks of the captured storefront (theme/raw/*.html), moved to one file so every
+   generated page does not repeat them. Font URLs point at the downloaded copies in fonts/. */
+  @font-face {
+  font-family: "M PLUS Rounded 1c";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("fonts/mplusrounded1c_n4.428b9fa30c4086bbfa642d0a0d9d72a6ec44279a.woff2") format("woff2"),
+  url("fonts/mplusrounded1c_n4.ce0152988a729fed7b84fea71f3afe32bf439e2e.woff") format("woff");
+}
+  @font-face {
+  font-family: "M PLUS Rounded 1c";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("fonts/mplusrounded1c_n7.f7691cd578296d6750074c017215a9ce717e7705.woff2") format("woff2"),
+  url("fonts/mplusrounded1c_n7.f753c025b7c188654cf5d0d25369b9d6868049fa.woff") format("woff");
+}
+  @font-face {
+  font-family: "M PLUS Rounded 1c";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("fonts/mplusrounded1c_n5.77d99091a74f4018d6b4ee46b3f6cde61ac006e0.woff2") format("woff2"),
+  url("fonts/mplusrounded1c_n5.f7be99ec764837e39effe3a25a4526d583dfad37.woff") format("woff");
+}
+  @font-face {
+  font-family: "M PLUS Rounded 1c";
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url("fonts/mplusrounded1c_n9.d47d82db7e13c47c9054355fab245dfa4e6aabb9.woff2") format("woff2"),
+  url("fonts/mplusrounded1c_n9.2c49e53fcc7ec03fad3689de1bb4a6e68f5fefcd.woff") format("woff");
+}
+  :root,
+  .color-scheme-1 {
+  --color-background: 255,255,255;
+  --gradient-background: #ffffff;
+  --color-foreground: 41,41,41;
+  --color-background-contrast: 191,191,191;
+  --color-shadow: 41,41,41;
+  --color-button: 47,154,224;
+  --color-button-text: 255,255,255;
+  --color-secondary-button: 255,255,255;
+  --color-secondary-button-text: 41,41,41;
+  --color-link: 41,41,41;
+  --color-badge-foreground: 41,41,41;
+  --color-badge-background: 255,255,255;
+  --color-badge-border: 41,41,41;
+  --payment-terms-background-color: rgb(255 255 255);
+  }
+  .color-scheme-2 {
+  --color-background: 243,243,243;
+  --gradient-background: #f3f3f3;
+  --color-foreground: 18,18,18;
+  --color-background-contrast: 179,179,179;
+  --color-shadow: 18,18,18;
+  --color-button: 18,18,18;
+  --color-button-text: 243,243,243;
+  --color-secondary-button: 243,243,243;
+  --color-secondary-button-text: 18,18,18;
+  --color-link: 18,18,18;
+  --color-badge-foreground: 18,18,18;
+  --color-badge-background: 243,243,243;
+  --color-badge-border: 18,18,18;
+  --payment-terms-background-color: rgb(243 243 243);
+  }
+  .color-scheme-3 {
+  --color-background: 231,114,119;
+  --gradient-background: #e77277;
+  --color-foreground: 255,255,255;
+  --color-background-contrast: 186,32,38;
+  --color-shadow: 18,18,18;
+  --color-button: 255,255,255;
+  --color-button-text: 0,0,0;
+  --color-secondary-button: 231,114,119;
+  --color-secondary-button-text: 255,255,255;
+  --color-link: 255,255,255;
+  --color-badge-foreground: 255,255,255;
+  --color-badge-background: 231,114,119;
+  --color-badge-border: 255,255,255;
+  --payment-terms-background-color: rgb(231 114 119);
+  }
+  .color-scheme-4 {
+  --color-background: 255,194,202;
+  --gradient-background: #ffc2ca;
+  --color-foreground: 41,41,41;
+  --color-background-contrast: 255,66,91;
+  --color-shadow: 18,18,18;
+  --color-button: 255,255,255;
+  --color-button-text: 18,18,18;
+  --color-secondary-button: 255,194,202;
+  --color-secondary-button-text: 255,255,255;
+  --color-link: 255,255,255;
+  --color-badge-foreground: 41,41,41;
+  --color-badge-background: 255,194,202;
+  --color-badge-border: 41,41,41;
+  --payment-terms-background-color: rgb(255 194 202);
+  }
+  .color-scheme-5 {
+  --color-background: 255,251,191;
+  --gradient-background: #fffbbf;
+  --color-foreground: 41,41,41;
+  --color-background-contrast: 255,243,64;
+  --color-shadow: 18,18,18;
+  --color-button: 255,255,255;
+  --color-button-text: 51,79,180;
+  --color-secondary-button: 255,251,191;
+  --color-secondary-button-text: 255,255,255;
+  --color-link: 255,255,255;
+  --color-badge-foreground: 41,41,41;
+  --color-badge-background: 255,251,191;
+  --color-badge-border: 41,41,41;
+  --payment-terms-background-color: rgb(255 251 191);
+  }
+  .color-scheme-c7fed183-40e4-4124-ba9a-f6fff47fa42a {
+  --color-background: 41,41,41;
+  --gradient-background: #292929;
+  --color-foreground: 255,255,255;
+  --color-background-contrast: 54,54,54;
+  --color-shadow: 41,41,41;
+  --color-button: 47,154,224;
+  --color-button-text: 255,255,255;
+  --color-secondary-button: 41,41,41;
+  --color-secondary-button-text: 41,41,41;
+  --color-link: 41,41,41;
+  --color-badge-foreground: 255,255,255;
+  --color-badge-background: 41,41,41;
+  --color-badge-border: 255,255,255;
+  --payment-terms-background-color: rgb(41 41 41);
+  }
+  body, .color-scheme-1, .color-scheme-2, .color-scheme-3, .color-scheme-4, .color-scheme-5, .color-scheme-c7fed183-40e4-4124-ba9a-f6fff47fa42a {
+  color: rgba(var(--color-foreground), 0.75);
+  background-color: rgb(var(--color-background));
+  }
+  :root {
+  --font-body-family: "M PLUS Rounded 1c", sans-serif;
+  --font-body-style: normal;
+  --font-body-weight: 400;
+  --font-body-weight-bold: 700;
+  --font-heading-family: "M PLUS Rounded 1c", sans-serif;
+  --font-heading-style: normal;
+  --font-heading-weight: 400;
+  --font-body-scale: 1.0;
+  --font-heading-scale: 1.0;
+  --media-padding: px;
+  --media-border-opacity: 0.05;
+  --media-border-width: 1px;
+  --media-radius: 0px;
+  --media-shadow-opacity: 0.0;
+  --media-shadow-horizontal-offset: 0px;
+  --media-shadow-vertical-offset: 4px;
+  --media-shadow-blur-radius: 5px;
+  --media-shadow-visible: 0;
+  --page-width: 140rem;
+  --page-width-margin: 0rem;
+  --product-card-image-padding: 0.0rem;
+  --product-card-corner-radius: 0.0rem;
+  --product-card-text-alignment: left;
+  --product-card-border-width: 0.0rem;
+  --product-card-border-opacity: 0.1;
+  --product-card-shadow-opacity: 0.0;
+  --product-card-shadow-visible: 0;
+  --product-card-shadow-horizontal-offset: 0.0rem;
+  --product-card-shadow-vertical-offset: 0.4rem;
+  --product-card-shadow-blur-radius: 0.5rem;
+  --collection-card-image-padding: 0.0rem;
+  --collection-card-corner-radius: 0.0rem;
+  --collection-card-text-alignment: left;
+  --collection-card-border-width: 0.0rem;
+  --collection-card-border-opacity: 0.1;
+  --collection-card-shadow-opacity: 0.0;
+  --collection-card-shadow-visible: 0;
+  --collection-card-shadow-horizontal-offset: 0.0rem;
+  --collection-card-shadow-vertical-offset: 0.4rem;
+  --collection-card-shadow-blur-radius: 0.5rem;
+  --blog-card-image-padding: 0.0rem;
+  --blog-card-corner-radius: 0.0rem;
+  --blog-card-text-alignment: left;
+  --blog-card-border-width: 0.0rem;
+  --blog-card-border-opacity: 0.1;
+  --blog-card-shadow-opacity: 0.0;
+  --blog-card-shadow-visible: 0;
+  --blog-card-shadow-horizontal-offset: 0.0rem;
+  --blog-card-shadow-vertical-offset: 0.4rem;
+  --blog-card-shadow-blur-radius: 0.5rem;
+  --badge-corner-radius: 0.4rem;
+  --popup-border-width: 1px;
+  --popup-border-opacity: 0.1;
+  --popup-corner-radius: 0px;
+  --popup-shadow-opacity: 0.05;
+  --popup-shadow-horizontal-offset: 0px;
+  --popup-shadow-vertical-offset: 4px;
+  --popup-shadow-blur-radius: 5px;
+  --drawer-border-width: 1px;
+  --drawer-border-opacity: 0.1;
+  --drawer-shadow-opacity: 0.0;
+  --drawer-shadow-horizontal-offset: 0px;
+  --drawer-shadow-vertical-offset: 4px;
+  --drawer-shadow-blur-radius: 5px;
+  --spacing-sections-desktop: 0px;
+  --spacing-sections-mobile: 0px;
+  --grid-desktop-vertical-spacing: 8px;
+  --grid-desktop-horizontal-spacing: 8px;
+  --grid-mobile-vertical-spacing: 4px;
+  --grid-mobile-horizontal-spacing: 4px;
+  --text-boxes-border-opacity: 0.1;
+  --text-boxes-border-width: 0px;
+  --text-boxes-radius: 0px;
+  --text-boxes-shadow-opacity: 0.0;
+  --text-boxes-shadow-visible: 0;
+  --text-boxes-shadow-horizontal-offset: 0px;
+  --text-boxes-shadow-vertical-offset: 4px;
+  --text-boxes-shadow-blur-radius: 5px;
+  --buttons-radius: 0px;
+  --buttons-radius-outset: 0px;
+  --buttons-border-width: 1px;
+  --buttons-border-opacity: 1.0;
+  --buttons-shadow-opacity: 0.0;
+  --buttons-shadow-visible: 0;
+  --buttons-shadow-horizontal-offset: 0px;
+  --buttons-shadow-vertical-offset: 4px;
+  --buttons-shadow-blur-radius: 5px;
+  --buttons-border-offset: 0px;
+  --inputs-radius: 0px;
+  --inputs-border-width: 1px;
+  --inputs-border-opacity: 0.55;
+  --inputs-shadow-opacity: 0.0;
+  --inputs-shadow-horizontal-offset: 0px;
+  --inputs-margin-offset: 0px;
+  --inputs-shadow-vertical-offset: 4px;
+  --inputs-shadow-blur-radius: 5px;
+  --inputs-radius-outset: 0px;
+  --variant-pills-radius: 40px;
+  --variant-pills-border-width: 1px;
+  --variant-pills-border-opacity: 0.55;
+  --variant-pills-shadow-opacity: 0.0;
+  --variant-pills-shadow-horizontal-offset: 0px;
+  --variant-pills-shadow-vertical-offset: 4px;
+  --variant-pills-shadow-blur-radius: 5px;
+  }
+  *,
+  *::before,
+  *::after {
+  box-sizing: inherit;
+  }
+  html {
+  box-sizing: border-box;
+  font-size: calc(var(--font-body-scale) * 62.5%);
+  height: 100%;
+  }
+  body {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-columns: 100%;
+  min-height: 100%;
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: 0.06rem;
+  line-height: calc(1 + 0.8 / var(--font-body-scale));
+  font-family: var(--font-body-family);
+  font-style: var(--font-body-style);
+  font-weight: var(--font-body-weight);
+  }
+  @media screen and (min-width: 841px) {
+  body {
+  font-size: 1.6rem;
+  }
+  }
+/* --- header section (sections--18643257164017__header) --- */
+header-drawer { justify-self: start; margin-left: -1.2rem; }
+@media screen and (min-width: 841px) { header-drawer { display: none; } }
+.menu-drawer-container { display: flex; }
+.list-menu { list-style: none; padding: 0; margin: 0; }
+.list-menu--inline { display: inline-flex; flex-wrap: wrap; }
+summary.list-menu__item { padding-right: 2.7rem; }
+.list-menu__item { display: flex; align-items: center; line-height: calc(1 + 0.3 / var(--font-body-scale)); }
+.list-menu__item--link { text-decoration: none; padding-bottom: 1rem; padding-top: 1rem; line-height: calc(1 + 0.8 / var(--font-body-scale)); }
+@media screen and (min-width: 841px) { .list-menu__item--link { padding-bottom: 0.5rem; padding-top: 0.5rem; } }
+.header { padding: 0px 3rem 0px 3rem; }
+.section-header { position: sticky; /* This is for fixing a Safari z-index issue. PR #2147 */ margin-bottom: 0px; }
+@media screen and (min-width: 841px) {
+  .section-header { margin-bottom: 0px; }
+  /* ヘッダーの検索フォームに文字を入力するとスクロールする不具合対策 */
+  .scrolled-past-header { position: fixed; top: 0; width: 100%; }
+}
+@media screen and (min-width: 1000px) { .header { padding-top: 0px; padding-bottom: 0px; } }
+.cart-notification { display: none; }
+
+/* --- footer section --- */
+.footer { margin-top: 0px; }
+.section-sections--18643257131249__footer-padding { padding-top: 27px; padding-bottom: 27px; }
+@media screen and (min-width: 841px) {
+  .footer { margin-top: 0px; }
+  .section-sections--18643257131249__footer-padding { padding-top: 36px; padding-bottom: 36px; }
+}
+
+/* --- index: featured collections, blog, recently viewed --- */
+.section-template--18643257688305__featured_collection_custom_DdpGnm-padding { padding-top: 0px; padding-bottom: 0px; }
+.section-template--18643257688305__featured_collection_custom_bTM9JU-padding { padding-top: 27px; padding-bottom: 27px; }
+.section-template--18643257688305__featured_blog_custom_B79JxT-padding { padding-top: 27px; padding-bottom: 27px; }
+@media screen and (min-width: 841px) {
+  .section-template--18643257688305__featured_collection_custom_DdpGnm-padding { padding-top: 0px; padding-bottom: 0px; }
+  .section-template--18643257688305__featured_collection_custom_bTM9JU-padding { padding-top: 36px; padding-bottom: 36px; }
+  .section-template--18643257688305__featured_blog_custom_B79JxT-padding { padding-top: 36px; padding-bottom: 36px; }
+}
+.noRecentlyItem { text-align: center; font-weight: 500; font-size: 1.6rem; padding-block: 1em; }
+@media only screen and (max-width: 767px) { .noRecentlyItem { font-size: 1.3rem; } }
+
+/* --- collection banner --- */
+@media screen and (max-width: 840px) { .collection-hero--with-image .collection-hero__inner { padding-bottom: calc(4px + 2rem); } }
+
+/* --- search --- */
+.template-search__header { margin-bottom: 3rem; }
+.template-search__search { margin: 0 auto 3.5rem; max-width: 74.1rem; }
+.template-search__search .search { margin-top: 3rem; }
+.template-search--empty { padding-bottom: 18rem; }
+@media screen and (min-width: 841px) { .template-search__header { margin-bottom: 5rem; } }
+.search__button .icon { height: 1.8rem; }
+
+/* --- product --- */
+.section-template--18643257295089__main-padding,
+.section-template--18643257295089__related-products-padding { padding-top: 0px; padding-bottom: 0px; }
+
+/* --- Growave wishlist widget (app styles injected at runtime on the real site) --- */
+.gw-add-to-wishlist-product-card-placeholder,
+.gw-wl-add-to-wishlist-placeholder {
+  --gw-wl-wishlistThemeSettings-primaryColor: #1d2939; --gw-wl-wishlistThemeSettings-secondaryColor: #00baee;
+  --gw-wl-wishlistIconSettings-heartColor: #ef3251; --gw-wl-wishlistIconSettings-backgroundColor: #ffffff;
+  --gw-wl-wishlistButtonSettings-color: #1d2939; --gw-wl-wishlistButtonSettings-fontColor: #1a1a1a; --gw-theme__main-color: #1d2939;
+}
+.gw-add-to-wishlist-product-card-placeholder { display: block; position: absolute; top: 0px; left: 0px; z-index: 99; line-height: 1; }
+.gw-toggle-wishlist-product-card-button.svelte-znbnxb{align-items:center;background:var(--gw-wl-wishlistIconSettings-backgroundColor);border:0;border-radius:50%;box-shadow:0 8px 16px -8px #3737371f;color:var(--gw-wl-wishlistIconSettings-heartColor);cursor:pointer;display:flex;height:32px;justify-content:center;margin:0;padding:0;position:relative;width:32px}
+.gw-toggle-wishlist-product-card-button[aria-disabled=true].svelte-znbnxb{cursor:default;opacity:.7}
+.gw-wl-icon{color:var(--gw-wl-wishlistIconSettings-heartColor)}
+
+/* --- index: static home slider (Splide is not loaded; layout taken from its inline styles/sizes) --- */
+#homeSlide .splide__list { display: flex; }
+#homeSlide .splide__slide { flex-shrink: 0; width: calc(33.3333% - 16px); margin-right: 24px; }
+@media screen and (max-width: 840px) { #homeSlide .splide__slide { width: calc(50% - 12px); } }
+@media screen and (max-width: 640px) { #homeSlide .splide__track { padding: 0 48px; } #homeSlide .splide__slide { width: 100%; margin-right: 12px; } }
+
+/* --- fixes for markup the theme JS would normally adjust --- */
+/* The last inline menu item (ご利用ガイド) is not positioned and would paint under .header-wrapper:before. */
+#cm-adjust .header__inline-menu .topMenu:last-child { position: relative; }
+/* Growave product-page wishlist button (its runtime styles are not captured). */
+.gw-wl-add-to-wishlist-product-page-widget .gw-btn { display: flex; align-items: center; justify-content: center; width: 100%; min-height: 4.4rem; margin: 0.4rem 0 1.2rem; padding: 0 1.6rem; border: 1px solid var(--gw-wl-wishlistIconSettings-heartColor); border-radius: 2px; background: #fff; color: #1a1a1a; font: inherit; font-size: 1.3rem; cursor: pointer; }
+.gw-wl-add-to-wishlist-btn__inner { display: flex; align-items: center; gap: 0.6rem; }
+
+/* Theme sets .cart-count-bubble{display:flex}, which beats the hidden attribute; hide the bubble when the cart is empty like the real site. */
+.cart-count-bubble[hidden] { display: none !important; }
+
+/* Public build: unofficial badge on every hero banner (the banner art carries the official logo). */
+#homeSlide .splide__slide a { position: relative; display: block; }
+.cmm-slide-badge { position: absolute; top: 10px; left: 10px; z-index: 1; padding: 3px 10px; border-radius: 999px; background: rgba(41, 41, 41, 0.78); color: #fff; font-size: 1.2rem; line-height: 1.6; letter-spacing: 0.04em; pointer-events: none; }
+
+/* Product contact button: the real page ships this as an inline <style> next to the link. */
+.product-contact-btn { display: flex; justify-content: center; align-items: center; width: 100%; padding: 12px 20px; background-color: #ffffff; color: #333333; border: 1px solid #333333; text-decoration: none; font-weight: bold; border-radius: 4px; margin-top: 15px; margin-bottom: 15px; transition: all 0.2s ease; cursor: pointer; }
+.product-contact-btn:hover { background-color: #333333; color: #ffffff; }

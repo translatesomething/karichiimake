@@ -1,0 +1,276 @@
+/*
+ * Growave brand theme — static half. Expands a per-shop seed (--gw-h / --gw-s / --gw-l /
+ * --gw-l-*) into the full palette. The scales and aliases are the same for every shop, so
+ * they ship with the extension and get cached; only the seed varies, and it arrives as an
+ * inline <style> from the storefront value.
+ */
+
+:root,
+[data-gw-app],
+[data-gw-widget] {
+  /* Primary shades — one lightness stop each. */
+  --gw-color-primary-w-0: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-0, 100%)
+  );
+  --gw-color-primary-w-05: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-05, 99%)
+  );
+  --gw-color-primary-w-1: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-1, 98%)
+  );
+  --gw-color-primary-w-2: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-2, 96%)
+  );
+  --gw-color-primary-w-3: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-3, 92%)
+  );
+  --gw-color-primary-w-4: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-4, 88%)
+  );
+  --gw-color-primary-w-5: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-5, 84%)
+  );
+  --gw-color-primary-w-6: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-6, 76%)
+  );
+  --gw-color-primary-w-7: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-7, 72%)
+  );
+  --gw-color-primary-w-8: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-8, 64%)
+  );
+  --gw-color-primary-w-9: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-9, 56%)
+  );
+  --gw-color-primary-w-10: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-10, 48%)
+  );
+  --gw-color-primary-w-11: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-11, 36%)
+  );
+  --gw-color-primary-w-12: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-12, 28%)
+  );
+  --gw-color-primary-w-13: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-13, 20%)
+  );
+  --gw-color-primary-w-14: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-14, 16%)
+  );
+  --gw-color-primary-w-15: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-15, 12%)
+  );
+  --gw-color-primary-w-16: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l-16, 8%)
+  );
+
+  /* Brand alpha shades — the ink down a fixed opacity ramp. */
+  --gw-color-brand-alpha-w-0: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 0
+  );
+  --gw-color-brand-alpha-w-1: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 0.01
+  );
+  --gw-color-brand-alpha-w-2: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 0.02
+  );
+  --gw-color-brand-alpha-w-3: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 0.03
+  );
+  --gw-color-brand-alpha-w-4: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 0.05
+  );
+  --gw-color-brand-alpha-w-5: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 0.06
+  );
+  --gw-color-brand-alpha-w-6: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 0.08
+  );
+  --gw-color-brand-alpha-w-7: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 0.11
+  );
+  --gw-color-brand-alpha-w-8: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 0.17
+  );
+  --gw-color-brand-alpha-w-9: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 0.2
+  );
+  --gw-color-brand-alpha-w-10: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 0.28
+  );
+  --gw-color-brand-alpha-w-11: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 0.46
+  );
+  --gw-color-brand-alpha-w-12: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 0.62
+  );
+  --gw-color-brand-alpha-w-13: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 0.71
+  );
+  --gw-color-brand-alpha-w-14: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 0.81
+  );
+  --gw-color-brand-alpha-w-15: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 0.9
+  );
+  --gw-color-brand-alpha-w-16: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 0.95
+  );
+  --gw-color-brand-alpha-w-17: hsl(
+    var(--gw-h, 214) var(--gw-s, 33%) var(--gw-l, 17%) / 1
+  );
+
+  /* White alpha shades — fixed, the same for every shop. */
+  --gw-color-white-alpha-w-0: hsl(0 0% 100% / 0);
+  --gw-color-white-alpha-w-1: hsl(0 0% 100% / 0.01);
+  --gw-color-white-alpha-w-2: hsl(0 0% 100% / 0.02);
+  --gw-color-white-alpha-w-3: hsl(0 0% 100% / 0.03);
+  --gw-color-white-alpha-w-4: hsl(0 0% 100% / 0.05);
+  --gw-color-white-alpha-w-5: hsl(0 0% 100% / 0.06);
+  --gw-color-white-alpha-w-6: hsl(0 0% 100% / 0.08);
+  --gw-color-white-alpha-w-7: hsl(0 0% 100% / 0.11);
+  --gw-color-white-alpha-w-8: hsl(0 0% 100% / 0.17);
+  --gw-color-white-alpha-w-9: hsl(0 0% 100% / 0.2);
+  --gw-color-white-alpha-w-10: hsl(0 0% 100% / 0.28);
+  --gw-color-white-alpha-w-11: hsl(0 0% 100% / 0.46);
+  --gw-color-white-alpha-w-12: hsl(0 0% 100% / 0.62);
+  --gw-color-white-alpha-w-13: hsl(0 0% 100% / 0.71);
+  --gw-color-white-alpha-w-14: hsl(0 0% 100% / 0.81);
+  --gw-color-white-alpha-w-15: hsl(0 0% 100% / 0.9);
+  --gw-color-white-alpha-w-16: hsl(0 0% 100% / 0.95);
+  --gw-color-white-alpha-w-17: hsl(0 0% 100% / 1);
+
+  /* Semantic tokens — aliases only, identical for every shop. */
+
+  /* Background */
+  --gw-bg-fill: var(--gw-color-primary-w-0);
+  --gw-bg-fill-hover: var(--gw-color-primary-w-05);
+  --gw-bg-fill-active: var(--gw-color-primary-w-1);
+  --gw-bg-fill-selected: var(--gw-color-primary-w-2);
+  --gw-bg-fill-disabled: var(--gw-color-brand-alpha-w-5);
+  --gw-bg-fill-secondary: var(--gw-color-primary-w-05);
+  --gw-bg-fill-secondary-hover: var(--gw-color-primary-w-1);
+  --gw-bg-fill-secondary-active: var(--gw-color-primary-w-2);
+  --gw-bg-fill-secondary-selected: var(--gw-color-primary-w-2);
+  --gw-bg-fill-secondary-disabled: var(--gw-color-brand-alpha-w-5);
+  --gw-bg-fill-accent: var(--gw-color-brand-alpha-w-17);
+  --gw-bg-fill-accent-hover: var(--gw-color-brand-alpha-w-16);
+  --gw-bg-fill-accent-active: var(--gw-color-brand-alpha-w-15);
+  --gw-bg-fill-accent-selected: var(--gw-color-brand-alpha-w-14);
+  --gw-bg-fill-accent-disabled: var(--gw-color-brand-alpha-w-5);
+  --gw-bg-fill-inverse-default: var(--gw-color-white-alpha-w-11);
+  --gw-bg-fill-inverse-hover: var(--gw-color-white-alpha-w-10);
+  --gw-bg-fill-inverse-active: var(--gw-color-white-alpha-w-9);
+  --gw-bg-fill-overlay-viptier: var(--gw-color-brand-alpha-w-14);
+  --gw-bg-fill-overlay-viptier-inverse: var(--gw-color-white-alpha-w-11);
+  --gw-bg-fill-tertiary: var(--gw-color-brand-alpha-w-0);
+  --gw-bg-fill-tertiary-hover: var(--gw-color-brand-alpha-w-3);
+  --gw-bg-fill-tertiary-active: var(--gw-color-brand-alpha-w-5);
+  --gw-bg-fill-tertiary-selected: var(--gw-color-brand-alpha-w-6);
+  --gw-bg-fill-tertiary-disabled: var(--gw-color-brand-alpha-w-0);
+
+  /* Text & Icon */
+  --gw-text-primary: var(--gw-color-primary-w-14);
+  --gw-text-primary-hover: var(--gw-color-brand-alpha-w-16);
+  --gw-text-primary-active: var(--gw-color-brand-alpha-w-15);
+  --gw-text-primary-selected: var(--gw-color-brand-alpha-w-14);
+  --gw-text-primary-disabled: var(--gw-color-brand-alpha-w-10);
+  --gw-text-secondary: var(--gw-color-brand-alpha-w-14);
+  --gw-text-secondary-hover: var(--gw-color-brand-alpha-w-13);
+  --gw-text-secondary-active: var(--gw-color-brand-alpha-w-12);
+  --gw-text-secondary-selected: var(--gw-color-brand-alpha-w-11);
+  --gw-text-secondary-disabled: var(--gw-color-brand-alpha-w-5);
+  --gw-text-tertiary: var(--gw-color-brand-alpha-w-11);
+  --gw-text-inverse: var(--gw-color-primary-w-0);
+  --gw-text-inverse-disabled: var(--gw-color-brand-alpha-w-8);
+  --gw-text-emphasis: var(--gw-color-blue-13);
+  --gw-text-emphasis-hover: var(--gw-color-blue-14);
+  --gw-text-emphasis-active: var(--gw-color-blue-15);
+
+  /* Border */
+  --gw-border-default: var(--gw-color-brand-alpha-w-8);
+  --gw-border-hover: var(--gw-color-brand-alpha-w-10);
+  --gw-border-active: var(--gw-color-brand-alpha-w-13);
+  --gw-border-disabled: var(--gw-color-brand-alpha-w-5);
+  --gw-border-light: var(--gw-color-brand-alpha-w-5);
+  --gw-border-brand: var(--gw-color-primary-w-14);
+  --gw-border-invert: var(--gw-color-primary-w-0);
+}
+
+/* Button */
+[data-gw-app],
+[data-gw-widget] {
+  --gw-button-primary-style: filled;
+  --gw-button-primary-color: var(--gw-bg-fill-accent);
+  --gw-button-primary-color-hover: var(--gw-bg-fill-accent-hover);
+  --gw-button-primary-color-active: var(--gw-bg-fill-accent-active);
+  --gw-button-primary-color-disabled: var(--gw-color-brand-alpha-w-5);
+  --gw-button-primary-text-color: var(--gw-text-inverse);
+
+  --gw-button-secondary-color-disabled: var(--gw-color-brand-alpha-w-5);
+}
+
+/*
+ * Dark. The bundle stamps data-gw-scheme on the same element it scopes, so this applies
+ * without inheriting into a widget that stayed light. :where() keeps the weight at one
+ * attribute, the same as the light block above and as the seed's own rules: the seed is
+ * printed after this file, so a hand-picked colour still wins on order.
+ *
+ * Every row whose primitive differs from the light block is here, named exactly as the
+ * design table names it: Brand alpha stays the brand in dark, White alpha is spelled out.
+ */
+:where([data-gw-app], [data-gw-widget])[data-gw-scheme="dark"] {
+  --gw-bg-fill: var(--gw-color-primary-w-14);
+  --gw-bg-fill-hover: var(--gw-color-primary-w-13);
+  --gw-bg-fill-active: var(--gw-color-primary-w-12);
+  --gw-bg-fill-selected: var(--gw-color-primary-w-11);
+  --gw-bg-fill-disabled: var(--gw-color-white-alpha-w-5);
+  --gw-bg-fill-secondary: var(--gw-color-primary-w-15);
+  --gw-bg-fill-secondary-hover: var(--gw-color-primary-w-14);
+  --gw-bg-fill-secondary-active: var(--gw-color-primary-w-13);
+  --gw-bg-fill-secondary-selected: var(--gw-color-primary-w-13);
+  --gw-bg-fill-secondary-disabled: var(--gw-color-white-alpha-w-5);
+  --gw-bg-fill-accent: var(--gw-color-white-alpha-w-16);
+  --gw-bg-fill-accent-hover: var(--gw-color-white-alpha-w-15);
+  --gw-bg-fill-accent-active: var(--gw-color-white-alpha-w-14);
+  --gw-bg-fill-accent-selected: var(--gw-color-white-alpha-w-12);
+  --gw-bg-fill-accent-disabled: var(--gw-color-white-alpha-w-5);
+  --gw-bg-fill-inverse-default: var(--gw-color-brand-alpha-w-9);
+  --gw-bg-fill-inverse-hover: var(--gw-color-brand-alpha-w-10);
+  --gw-bg-fill-inverse-active: var(--gw-color-brand-alpha-w-11);
+  --gw-bg-fill-overlay-viptier: var(--gw-color-white-alpha-w-11);
+  --gw-bg-fill-overlay-viptier-inverse: var(--gw-color-brand-alpha-w-14);
+  --gw-bg-fill-tertiary: var(--gw-color-white-alpha-w-0);
+  --gw-bg-fill-tertiary-hover: var(--gw-color-white-alpha-w-3);
+  --gw-bg-fill-tertiary-active: var(--gw-color-white-alpha-w-5);
+  --gw-bg-fill-tertiary-selected: var(--gw-color-white-alpha-w-6);
+  --gw-bg-fill-tertiary-disabled: var(--gw-color-white-alpha-w-0);
+
+  --gw-text-primary: var(--gw-color-primary-w-0);
+  --gw-text-primary-hover: var(--gw-color-white-alpha-w-16);
+  --gw-text-primary-active: var(--gw-color-white-alpha-w-15);
+  --gw-text-primary-selected: var(--gw-color-white-alpha-w-14);
+  --gw-text-primary-disabled: var(--gw-color-white-alpha-w-10);
+  --gw-text-secondary: var(--gw-color-white-alpha-w-14);
+  --gw-text-secondary-hover: var(--gw-color-white-alpha-w-13);
+  --gw-text-secondary-active: var(--gw-color-white-alpha-w-12);
+  --gw-text-secondary-selected: var(--gw-color-white-alpha-w-11);
+  --gw-text-secondary-disabled: var(--gw-color-white-alpha-w-5);
+  --gw-text-tertiary: var(--gw-color-white-alpha-w-11);
+  --gw-text-inverse: var(--gw-color-primary-w-14);
+  --gw-text-inverse-disabled: var(--gw-color-white-alpha-w-8);
+  --gw-text-emphasis: var(--gw-color-blue-1);
+  --gw-text-emphasis-hover: var(--gw-color-blue-5);
+  --gw-text-emphasis-active: var(--gw-color-blue-7);
+
+  --gw-border-default: var(--gw-color-white-alpha-w-8);
+  --gw-border-hover: var(--gw-color-white-alpha-w-10);
+  --gw-border-active: var(--gw-color-white-alpha-w-13);
+  --gw-border-disabled: var(--gw-color-white-alpha-w-5);
+  --gw-border-light: var(--gw-color-white-alpha-w-5);
+  --gw-border-brand: var(--gw-color-primary-w-0);
+  --gw-border-invert: var(--gw-color-primary-w-14);
+
+  --gw-button-primary-color-disabled: var(--gw-color-white-alpha-w-5);
+  --gw-button-secondary-color-disabled: var(--gw-color-white-alpha-w-5);
+}

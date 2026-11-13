@@ -1,0 +1,163 @@
+<!DOCTYPE html><html id="cm-adjust" class="js" lang="ja"><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="cmm-base" content="/karichiimake/">
+<meta name="cmm-public" content="1">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" type="image/svg+xml" href="/karichiimake/assets/app/favicon-public.svg">
+
+<title>ちいかわ お買い物シミュレーター（非公式）</title>
+<meta property="og:site_name" content="ちいかわ お買い物シミュレーター（非公式）">
+<meta property="og:title" content="ちいかわ お買い物シミュレーター（非公式）">
+<link rel="stylesheet" href="/karichiimake/assets/theme/cmm-inline.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/accelerated-checkout-backwards-compat.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/base.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-cart-items.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-localization-form.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/cm-common.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/splide.min.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-slideshow.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-slider.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-list-social.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-list-menu.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-search.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-menu-drawer.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-cart-notification.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-card.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-price.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/template-collection.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-rating.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-volume-pricing.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/quick-order-list.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/quantity-popover.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-article-card.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/section-featured-blog.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/section-footer.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-newsletter.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-list-payment.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/gw-brand-theme.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-collection-hero.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-facets.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-show-more.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-swatch-input.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-swatch.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-pagination.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/cm-account.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/customer.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/section-main-product.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-accordion.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-deferred-media.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-pickup-availability.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/section-related-products.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-product-variant-picker.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-cart.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-totals.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/theme/component-discounts.css?v=mwfbah0l">
+<link rel="stylesheet" href="/karichiimake/assets/app/app.css?v=mwfbah0l">
+<script type="module" src="/karichiimake/assets/app/ui/boot.js?v=mwfbah0l"></script>
+
+</head>
+<body class="gradient tpl-cart cmm-public">
+<div id="cmm-disclaimer" class="cmm-disclaimer" role="note"><p>これはファンが作成した買い物シミュレーターです。公式ストアではなく、実際の商品の販売は行っていません。</p><p>Fan-made shopping simulator. Not the official store. Nothing is actually sold.</p><a href="https://chiikawamarket.jp/" data-cmm-keep-href="" target="_blank" rel="noopener">公式ストアはこちら (chiikawamarket.jp)</a></div>
+<script>(function(){var d=document.getElementById('cmm-disclaimer');function f(){document.documentElement.style.setProperty('--cmm-dh',d.offsetHeight+'px')}f();addEventListener('resize',f);addEventListener('load',f)})();</script>
+
+<a class="skip-to-content-link button visually-hidden" href="#MainContent">コンテンツに進む</a>
+
+
+
+<div class="shopify-section shopify-section-group-header-group section-header shopify-section-header-sticky"><sticky-header data-sticky-type="always" class="header-wrapper color-scheme-4 gradient"><header class="header header--top-center header--mobile-center page-width header--has-menu header--has-social header--has-account">
+<header-drawer data-breakpoint="tablet"><details id="Details-menu-drawer-container" class="menu-drawer-container">
+<summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="メニュー" role="button" aria-expanded="false" aria-controls="menu-drawer"><span><svg class="icon icon-hamburger" viewBox="0 0 18 16" aria-hidden="true" focusable="false"><use href="/karichiimake/assets/theme/icons.svg#hamburger"></use></svg><svg class="icon icon-close" viewBox="0 0 18 17" aria-hidden="true" focusable="false"><use href="/karichiimake/assets/theme/icons.svg#close"></use></svg></span></summary>
+<div id="menu-drawer" class="gradient menu-drawer motion-reduce color-scheme-1"><div class="menu-drawer__inner-container"><div class="menu-drawer__navigation-container"><nav class="menu-drawer__navigation">
+<div class="welcome"><div class="welcome__text">こんにちはッ！山田 太郎さん</div><div class="welcome__img"><img src="//chiikawamarket.jp/cdn/shop/files/welcome_img_320x.png?v=356077855810861457" width="160" height="86" alt="" loading="lazy"></div></div>
+<div class="menu-drawer__login"><a href="/karichiimake/account" class="mypage"><span>マイページ</span></a></div>
+<div class="menu-drawer__wishlist"><a href="/karichiimake/pages/wishlist"><span>お気に入りリスト</span></a></div>
+<form action="/karichiimake/search" method="get" role="search" class="search search-modal__form headSearch"><div class="field"><input class="search__input field__input" id="HeaderSearchDrawer" type="search" name="q" value="" placeholder="商品をさがす"><label class="field__label" for="HeaderSearchDrawer">商品をさがす</label><button class="search__button field__button" aria-label="商品をさがす"><span class="svg-wrapper"><svg class="icon icon-search" viewBox="0 0 18 19" aria-hidden="true" focusable="false"><use href="/karichiimake/assets/theme/icons.svg#search"></use></svg></span></button></div></form>
+<ul class="menu-drawer__menu has-submenu list-menu" data-cmm-nav-slot="drawer"></ul>
+
+</nav></div></div></div>
+</details></header-drawer>
+<div class="welcome"><div class="welcome__text">こんにちはッ！山田 太郎さん</div><div class="welcome__img"><img src="//chiikawamarket.jp/cdn/shop/files/welcome_img_320x.png?v=356077855810861457" width="160" height="86" alt="" loading="lazy"></div></div>
+<h1 class="header__heading"><a href="/karichiimake/" class="header__heading-link link link--text focus-inset"><span class="header__heading-logo-wrapper"><span class="cmm-site-name">ちいかわ お買い物シミュレーター（非公式）</span></span></a></h1>
+<nav class="header__inline-menu" data-cmm-nav="/karichiimake/assets/app/fragments/nav.html"><ul class="list-menu list-menu--inline"><li class="topMenu"><header-menu><details><summary class="header__menu-item list-menu__item link focus-inset" role="button" aria-expanded="false"><span>新着商品</span><svg class="icon icon-caret" viewBox="0 0 10 6" aria-hidden="true" focusable="false"><use href="/karichiimake/assets/theme/icons.svg#caret"></use></svg></summary><div class="list-menu--disclosure" data-cmm-nav-slot="menu-0"></div></details></header-menu></li><li class="topMenu"><header-menu><details><summary class="header__menu-item list-menu__item link focus-inset" role="button" aria-expanded="false"><span>再入荷商品</span><svg class="icon icon-caret" viewBox="0 0 10 6" aria-hidden="true" focusable="false"><use href="/karichiimake/assets/theme/icons.svg#caret"></use></svg></summary><div class="list-menu--disclosure" data-cmm-nav-slot="menu-1"></div></details></header-menu></li><li class="topMenu"><header-menu><details><summary class="header__menu-item list-menu__item link focus-inset" role="button" aria-expanded="false"><span>キャラクター<em>から探す</em></span><svg class="icon icon-caret" viewBox="0 0 10 6" aria-hidden="true" focusable="false"><use href="/karichiimake/assets/theme/icons.svg#caret"></use></svg></summary><div class="list-menu--disclosure" data-cmm-nav-slot="menu-2"></div></details></header-menu></li><li class="topMenu"><header-menu><details><summary class="header__menu-item list-menu__item link focus-inset" role="button" aria-expanded="false"><span>シリーズ<em>から探す</em></span><svg class="icon icon-caret" viewBox="0 0 10 6" aria-hidden="true" focusable="false"><use href="/karichiimake/assets/theme/icons.svg#caret"></use></svg></summary><div class="list-menu--disclosure" data-cmm-nav-slot="menu-3"></div></details></header-menu></li><li class="topMenu"><header-menu><details><summary class="header__menu-item list-menu__item link focus-inset" role="button" aria-expanded="false"><span>商品カテゴリ<em>から探す</em></span><svg class="icon icon-caret" viewBox="0 0 10 6" aria-hidden="true" focusable="false"><use href="/karichiimake/assets/theme/icons.svg#caret"></use></svg></summary><div class="list-menu--disclosure" data-cmm-nav-slot="menu-4"></div></details></header-menu></li><li class="topMenu"><a href="/karichiimake/unavailable/" class="header__menu-item list-menu__item link link--text focus-inset"><span>ご利用ガイド</span></a></li></ul></nav>
+<form action="/karichiimake/search" method="get" role="search" class="search search-modal__form headSearch"><div class="field"><input class="search__input field__input" id="HeaderSearch" type="search" name="q" value="" placeholder="商品をさがす"><label class="field__label" for="HeaderSearch">商品をさがす</label><button class="search__button field__button" aria-label="商品をさがす"><span class="svg-wrapper"><svg class="icon icon-search" viewBox="0 0 18 19" aria-hidden="true" focusable="false"><use href="/karichiimake/assets/theme/icons.svg#search"></use></svg></span></button></div></form>
+<div class="header__icons"><div class="desktop-localization-wrapper"></div>
+
+<a href="/karichiimake/pages/wishlist" class="header__icon header__icon--wishlist link focus-inset small-hide" rel="nofollow"><img src="//chiikawamarket.jp/cdn/shop/files/btn_wishlist_jp_112x.png?v=17187405421321928380" width="56" height="56" alt="お気に入りリスト" loading="lazy"><span class="visually-hidden">お気に入りリスト</span></a><a href="/karichiimake/account" class="header__icon header__icon--account link focus-inset small-hide" rel="nofollow"><img src="//chiikawamarket.jp/cdn/shop/files/btn_mypage_112x.png?v=10950806131549700716" width="56" height="56" alt="" loading="lazy"><span class="visually-hidden">アカウント</span></a><a href="/karichiimake/cart" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble"><img src="//chiikawamarket.jp/cdn/shop/files/btn_cart_112x.png?v=8178207740371644746" width="56" height="56" alt="" loading="lazy"><span class="visually-hidden">カート</span><div class="cart-count-bubble" data-cmm-cart-count="" hidden=""><span aria-hidden="true"></span><span class="visually-hidden" data-cmm-cart-count-label=""></span></div></a>
+</div>
+</header></sticky-header>
+
+<cart-notification data-cmm-cart-drawer=""><div class="cart-notification-wrapper page-width"><div id="cart-notification" class="cart-notification focus-inset color-scheme-4 gradient" aria-modal="true" aria-label="カートにアイテムが追加されました" role="dialog" tabindex="-1">
+<div class="cart-notification__header"><div class="cart-notification__heading caption-large text-body"><svg class="icon icon-checkmark" viewBox="0 0 12 9" aria-hidden="true" focusable="false"><use href="/karichiimake/assets/theme/icons.svg#checkmark"></use></svg>カートにアイテムが追加されました</div><button type="button" class="cart-notification__close modal__close-button link link--text focus-inset" aria-label="閉じる" data-cmm-cart-drawer-close=""><span class="svg-wrapper"><svg class="icon icon-close" viewBox="0 0 18 17" aria-hidden="true" focusable="false"><use href="/karichiimake/assets/theme/icons.svg#close"></use></svg></span></button></div>
+<div id="cart-notification-product" class="cart-notification-product" data-cmm-cart-drawer-product=""></div>
+<template data-cmm-cart-drawer-item=""><div class="cart-notification-product__image global-media-settings"><img src="" alt="" width="70" height="70" loading="lazy" data-cmm-item-image=""></div><div><h3 class="cart-notification-product__name h4" data-cmm-item-title=""></h3><dl data-cmm-item-options=""></dl></div></template>
+<div class="cart-notification__links"><a href="/karichiimake/cart" id="cart-notification-button" class="button button--secondary button--full-width">カートを見る (<span data-cmm-cart-count-text="">0</span>)</a><button type="button" class="link button-label" data-cmm-cart-drawer-close="">買い物を続ける</button></div>
+</div></div></cart-notification>
+
+<script>/* cmm: header menu glue. Dawn's header JS is not loaded. The mega-menu lists and the mobile drawer
+   menu are stored once in assets/app/fragments/nav.html and copied into [data-cmm-nav-slot] here; the drawer
+   needs .menu-opening on open <details> for the theme CSS. */
+(function(){var n=document.querySelector('[data-cmm-nav]');if(n)fetch(n.getAttribute('data-cmm-nav')).then(function(r){return r.text()}).then(function(h){
+var t=document.createElement('template');t.innerHTML=h;t.content.querySelectorAll('template[data-slot]').forEach(function(x){
+var el=document.querySelector('[data-cmm-nav-slot="'+x.getAttribute('data-slot')+'"]');if(el)el.innerHTML=x.innerHTML})});
+var d=document.getElementById('Details-menu-drawer-container');if(!d)return;
+d.addEventListener('toggle',function(e){var t=e.target;if(t.tagName!=='DETAILS')return;t.classList.toggle('menu-opening',t.open);
+if(t===d)document.body.classList.toggle('overflow-hidden-tablet',d.open)},true);
+d.addEventListener('click',function(e){var b=e.target.closest('.menu-drawer__close-button');if(b){e.preventDefault();b.closest('details').open=false}})})();
+</script>
+</div>
+
+<main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+
+<div class="shopify-section">
+<cart-items class="gradient color-scheme-1 isolate is-empty" data-cmm-cart=""><div class="page-width">
+<h1 class="title">カート</h1>
+<div class="cartNotice">一部の商品にて決済方法をクレジットカード決済のみとさせていただいております。<br>
+商品ページに「決済に関するご案内」の記載がある場合は必ずご確認ください。</div>
+<div class="cart__warnings"><p>カートに何も入っていません</p></div>
+<form action="/karichiimake/checkout" class="cart__contents" method="get" id="cart"><div class="cart__items" id="main-cart-items"><div class="js-contents"><table class="cart-items">
+<caption class="visually-hidden">カート</caption>
+<thead><tr><th class="caption-with-letter-spacing" colspan="2" scope="col">商品</th><th class="medium-hide large-up-hide right caption-with-letter-spacing" colspan="1" scope="col">合計</th><th class="cart-items__heading--wide cart-items__heading--quantity small-hide caption-with-letter-spacing" colspan="1" scope="col">数量</th><th class="small-hide right caption-with-letter-spacing" colspan="1" scope="col">合計</th></tr></thead>
+<tbody data-cmm-cart-lines=""></tbody>
+</table></div></div>
+<p class="visually-hidden" id="cart-live-region-text" aria-live="polite" role="status"></p>
+</form>
+<template data-cmm-cart-row=""><tr class="cart-item">
+<td class="cart-item__media"><div class="cart-item__image-container gradient global-media-settings"><img src="" class="cart-item__image" alt="" loading="lazy" width="150" height="150" data-cmm-item-image=""></div></td>
+<td class="cart-item__details"><div><a href="" class="cart-item__name h4 break" data-cmm-item-link=""></a><div class="product-option"><span data-cmm-item-price=""></span></div><dl data-cmm-item-options=""></dl><p class="product-option" data-cmm-item-note=""></p></div></td>
+<td class="cart-item__totals right medium-hide large-up-hide"><div class="cart-item__price-wrapper"><span class="price price--end" data-cmm-item-total=""></span></div></td>
+<td class="cart-item__quantity"><quantity-popover><div class="cart-item__quantity-wrapper quantity-popover-wrapper"><label class="visually-hidden">数量</label><div class="quantity-popover-container"><quantity-input class="quantity cart-quantity"><button class="quantity__button" name="minus" type="button" data-cmm-qty-minus=""><span class="visually-hidden">数量を減らす</span><span class="svg-wrapper"><svg class="icon icon-minus" viewBox="0 0 10 2" aria-hidden="true" focusable="false"><use href="/karichiimake/assets/theme/icons.svg#minus"></use></svg></span></button><input class="quantity__input" type="number" value="1" min="0" step="1" aria-label="数量" data-cmm-qty-input=""><button class="quantity__button" name="plus" type="button" data-cmm-qty-plus=""><span class="visually-hidden">数量を増やす</span><span class="svg-wrapper"><svg class="icon icon-plus" viewBox="0 0 10 10" aria-hidden="true" focusable="false"><use href="/karichiimake/assets/theme/icons.svg#plus"></use></svg></span></button></quantity-input></div><cart-remove-button><button type="button" class="button button--tertiary" aria-label="削除する" data-cmm-remove=""><span class="svg-wrapper"><svg class="icon icon-remove" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><use href="/karichiimake/assets/theme/icons.svg#remove"></use></svg></span></button></cart-remove-button></div><div class="cart-item__error" role="alert"><small class="cart-item__error-text" data-cmm-item-error=""></small></div></quantity-popover></td>
+<td class="cart-item__totals right small-hide"><div class="cart-item__price-wrapper"><span class="price price--end" data-cmm-item-total=""></span></div></td>
+</tr></template>
+</div></cart-items>
+</div>
+<div class="shopify-section cart__footer-wrapper"><div class="gradient color-scheme-1 is-empty" id="main-cart-footer"><div class="page-width"><div class="cart__footer isolate"><div class="cart__blocks">
+<div class="js-contents"><div></div><div class="totals"><h2 class="totals__total">合計</h2><p class="totals__total-value"><span data-cmm-cart-subtotal="" data-cmm-price-jpy="0">¥0</span><span class="tax">(税込)</span></p></div><small class="tax-note caption-large rte">送料はレジで計算されます</small>
+<div class="cm-free-shipping-progress"><p class="cm-free-shipping-progress__message" data-cmm-free-shipping=""></p></div></div>
+<div class="js-contents"><div class="checkArea"><p class="checkArea__text">ご購入前に注文確定後の対応についてのご確認と、<br class="pc">内容への同意をお願いいたします。<br><span class="notes">※ご注文確定後のご注文内容の変更・キャンセルにつきましてはお受けできかねます。</span></p><input type="checkbox" value="" class="termsCheck" id="termsCheck" data-cmm-terms=""><label for="termsCheck">同意しました</label></div>
+<div class="cart__ctas"><button type="submit" id="checkout" class="cart__checkout-button button" name="checkout" disabled="" form="cart" data-cmm-checkout-button="">レジに進む</button></div>
+<div class="historyBack"><button type="button" onclick="history.back();">前のページへ戻る</button></div>
+<button type="button" class="all_clear_cart" id="all_clear_cart" data-cmm-cart-clear="">カートを空にする</button></div>
+<div id="cart-errors" data-cmm-cart-errors=""></div>
+</div></div></div></div></div>
+
+</main>
+
+
+
+<div class="shopify-section shopify-section-group-footer-group footerImg"><div class="footerImg__img"><img src="//chiikawamarket.jp/cdn/shop/files/footer-chiikawa-animation.gif?v=1766052402&amp;width=1000" width="1000" height="405" alt="" loading="lazy"></div></div>
+<div class="shopify-section shopify-section-group-footer-group">
+<footer class="footer color-scheme-5 gradient section-sections--18643257131249__footer-padding"><div class="footer__content-top page-width">
+<div class="footer-block--newsletter">
+</div>
+</div><div class="footer__content-bottom"><div class="footer__content-bottom-wrapper page-width"><div class="footer__copyright caption"><small class="copyright__content">ちいかわ お買い物シミュレーター（非公式）　©nagano / chiikawa committee</small></div></div></div>
+</footer>
+<div class="footer__column footer__localization isolate"><localization-form data-cmm-currency=""><form class="localization-form" onsubmit="return false"><div><h2 class="caption-large text-body visually-hidden">国/地域</h2><div class="disclosure"><button type="button" class="disclosure__button localization-form__select localization-selector link link--text caption-large" aria-expanded="false"><span>日本 | JPY ¥</span><svg class="icon icon-caret" viewBox="0 0 10 6" aria-hidden="true" focusable="false"><use href="/karichiimake/assets/theme/icons.svg#caret"></use></svg></button></div></div></form></localization-form></div>
+</div>
+
+<div class="cmm-settings" data-cmm-settings=""></div>
+
+
+</body></html>
